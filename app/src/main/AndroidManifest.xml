@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.happyheng.sport_android">
+    package="me.moreshare.wordmap">
 
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -31,6 +31,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <!-- SD卡读取权限，用户写入离线定位数据-->
     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
     <application
         android:name=".App"
@@ -43,7 +44,7 @@
         <!--百度云开发Key，可以将其替换成自己的，申请的具体方法可以参考  http://lbsyun.baidu.com/index.php?title=androidsdk/guide/key  -->
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
-            android:value="8c9AjQNNSK9YoNQKvvPOagxW03AQnvgd" />
+            android:value="Brqx75PGxMYA9tgp7ITKcn95toRpk7Xu" />
 
 
         <service android:name=".service.LocationService" />
